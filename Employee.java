@@ -6,7 +6,7 @@ public class Employee extends Human {
     public static String employeeType = "Office worker";
 
     public Employee(int age, String name, boolean isMale, String company, float salary) {
-        super(age, name, isMale); // получаем данные из Human
+        super(age, name, isMale);
         this.company = company;
         this.salary = salary;
     }
