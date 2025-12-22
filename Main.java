@@ -19,7 +19,7 @@ public class Main {
 
         System.out.print("Is male (true/false): ");
         boolean isMale = scanner.nextBoolean();
-        scanner.nextLine(); // очистка буфера
+        scanner.nextLine();
 
         System.out.print("Enter company name: ");
         String company = scanner.nextLine();
