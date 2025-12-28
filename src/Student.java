@@ -33,6 +33,10 @@ public final class Student extends Human implements IQualification {
         );
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9d3446cf488e0c77c82e0c0837ec0d63b615e7ac
     public final void showStudentId() {
         System.out.println("Student ID: " + studentId);
     }
@@ -47,3 +51,7 @@ public final class Student extends Human implements IQualification {
         System.out.println(name + " received certification");
     }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9d3446cf488e0c77c82e0c0837ec0d63b615e7ac
